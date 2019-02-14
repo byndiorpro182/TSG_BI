@@ -1,0 +1,43 @@
+{
+
+"name": "Gartner",
+
+"dataColors": [ 
+	"#235eb5", 
+	"#f2c811", 
+	"#dd0f31",  
+	"#c0c6cf", 
+	"#00b7c3",
+	"#68758c", 
+	"#dd8e07", 
+	"#4f96fd", 
+	"#172854", 
+	"#56e6ef", 
+	"#f8e225", 
+	"#f0f2f5"
+	 ],
+
+
+"background": "#FFFFFF",
+"foreground": "#070f25",
+"tableAccent":"#0F1934",
+	"visualStyles": 
+	{
+		"treemap": {
+            "*": {
+            	"labels": [{
+
+            	    "show": true,
+                    "color": {
+                        "solid": {
+                            "color": "#ffffff"
+                        }
+                    },
+                    "fontSize": 9,
+                    "fontFamily": "Segoe UI"
+                }]
+             }       
+        }
+	}
+
+}

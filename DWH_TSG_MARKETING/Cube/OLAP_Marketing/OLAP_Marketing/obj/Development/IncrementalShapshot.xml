@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAP_Marketing</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>tKvYFeG34tHYfphqkTnfqvNw2Wo=1/14/2019 2:01:42 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>MART MARKETING</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>CMUN5uQqVcCCx8LejxBxAPxeqaQ=1/12/2019 3:23:28 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>MART MARKETING</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yKwdJqBNBSKzCp0R5Pcy90Lpw7E=1/12/2019 3:44:17 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Inventory Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>X2gcLoVg1hEL/ond0BOEULuOApA=1/12/2019 3:44:58 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Calender</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>trLnrBAhSgM9w6JxUkGrdV+LCbs=1/12/2019 3:45:08 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Marketing Channel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kBsbafD9Jigazfi6pjGmAIWtL6E=1/12/2019 3:45:16 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Opp Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NhMgfbhyC8s8uJQUKWaZKwv25Nw=1/12/2019 3:45:34 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ANsz4cJzoCgoG1/u7eGeT04Acng=1/12/2019 4:00:35 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>edvh9/T9NWWFWC0dyn71lu44mKk=1/12/2019 3:46:28 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>DIM Inventory Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>93UT6ek13fq7fmQH3j3SQUM6ybU=1/12/2019 3:44:58 PM1/14/2019 1:50:03 PMd03oUOSUm/PEgvFmze0Rcvzcqdw=1/12/2019 3:41:11 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>Cube Adword Keyword</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Bz0U9iXEk+Cdztj75sJgNjHkbZ0=1/12/2019 3:45:08 PM1/14/2019 1:50:03 PMxMGr+idOwRhsFs92T9SKBrmD8SY=1/12/2019 3:41:41 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>Cube Marketing Cost</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>KVKtGvmGSTte2noVJTNzu1PA8/M=1/14/2019 1:59:17 PM1/14/2019 1:50:03 PMV3qNWZbz5keE0qzvNEIafkXjMRM=1/12/2019 3:42:05 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>Cube Sale Detail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>x1EmznzTw9jYSFnOJkbJ1xY54CA=1/12/2019 3:45:08 PM1/14/2019 1:50:03 PMAo9UoTltroactl9jKBHpJFRLZR0=1/12/2019 3:42:34 PM1/14/2019 1:50:03 PM</TimeStamp>
+        <ID>
+          <String>Cube Target Marketing</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>lVCOrjvj2mTP2WxNopWiMeEpBJU=1/12/2019 3:07:38 PM1/14/2019 1:50:03 PM</TimeStamp>
+      <ID>
+        <String>OLAP_Marketing</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-01-14T07:01:49.196667Z</LastDeployed>
+</DeploymentSnapshot>
